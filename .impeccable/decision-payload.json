@@ -1,0 +1,167 @@
+{
+  "title": "Choose the Visual World for Nexura",
+  "question": "The roll assigned Patchable Modular Stream Matrix. Select your preferred direction, an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Patchable Modular Stream Matrix",
+      "kicker": "THE ROLL",
+      "lineage": "Precision Eurorack modular synthesizer and patchable signal routing matrix",
+      "thesis": "Treat distributed stream orchestration as physical, low-latency signal routing with tactile patch lines, live voltage/throughput meters, and bus-level precision.",
+      "palette": [
+        "#0b0d12",
+        "#1e2433",
+        "#ff5c00",
+        "#00f0ff",
+        "#e2e8f0"
+      ],
+      "materials": [
+        "brushed anodized aluminum",
+        "illuminated jack sockets",
+        "tactile signal patch lines",
+        "knurled rotary potentiometers"
+      ],
+      "viewport": "Industrial aluminum console; left rail holds data sources with active patch jacks; central routing matrix routes streams with glowing SVG patch cords to V8 microVM modules; right bay monitors live multi-channel throughput.",
+      "risk": "Can feel overly skeuomorphic if styled as retro novelty instead of modern industrial instrumentation.",
+      "raised": [
+        {
+          "from": "challenger-seven-segment",
+          "raise": "Every latency, request-count, and throughput metric displays with strict seven-segment LED discipline and unlit ghost cells."
+        },
+        {
+          "from": "challenger-phosphor-terminal",
+          "raise": "Stream logs and debug replay retain genuine phosphor persistence with microsecond timestamp decay."
+        },
+        {
+          "from": "challenger-civic-bureau",
+          "raise": "Typographic restraint: single geometric grotesk family in strict weights, zero decorative badges, ruled architectural dividers."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "RF Spectrum & Telecom Telemetry Analyzer",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "High-frequency microwave network analyzer and digital storage oscilloscope",
+      "thesis": "The entire engine rendered as a high-density calibrated instrument where sub-12ms Anycast packets are physical waveform traces on calibrated graticules.",
+      "palette": [
+        "#08090c",
+        "#141721",
+        "#10b981",
+        "#38bdf8",
+        "#f1f5f9"
+      ],
+      "materials": [
+        "calibrated graticule glass",
+        "phosphor vector traces",
+        "engraved bezel scales",
+        "tactile rotary encoders"
+      ],
+      "viewport": "Calibrated 10x10 graticule display showing real-time 48.4k req/s waveform, sub-millisecond trace markers, and global edge PoP latency sweeps.",
+      "risk": "The strongest grounded direction in this category; high familiarity for infrastructure engineers.",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-seven-segment",
+      "label": "Seven-Segment Instrumentation Board",
+      "verdict": "competitive",
+      "lineage": "Seven-segment LED instrument clusters and industrial price/telemetry totems",
+      "thesis": "The entire architecture governed by rigid multi-cell LED masks where absence is drawn as deliberately as light.",
+      "palette": [
+        "#0a0a0a",
+        "#1a1a1a",
+        "#ef4444",
+        "#fbbf24",
+        "#d1d5db"
+      ],
+      "materials": [
+        "LED segment bar arrays",
+        "smoked acrylic filter glass",
+        "etched PCB fiducials"
+      ],
+      "viewport": "Massive illuminated 11ms latency and 99.99% SLA segment arrays with visible unlit ghost segments; tabular routing cards.",
+      "case": "Fuses with supreme hardware authenticity; holds audience identification and instant metric legibility.",
+      "risk": "Strict segment geometry can restrict long-form explanatory copy if not balanced with clean editorial type.",
+      "comp": ".impeccable/mocks/decision/challenger-seven-segment.webp",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-seven-segment-alarm-clock-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-seven-segment-alarm-clock.webp"
+    },
+    {
+      "id": "challenger-phosphor-terminal",
+      "label": "Phosphor Glass Terminal Console",
+      "verdict": "competitive",
+      "lineage": "Green and amber CRT terminal displays in high-security machine rooms",
+      "thesis": "The landing page as a continuous live reactive transcript where every interaction is an executable command stream with phosphor blooming.",
+      "palette": [
+        "#050805",
+        "#0d1a0d",
+        "#22c55e",
+        "#86efac",
+        "#152e15"
+      ],
+      "materials": [
+        "curved CRT glass",
+        "phosphor bloom",
+        "subtle raster scanlines"
+      ],
+      "viewport": "80-column interactive command frame, real-time trace inspection, live sandbox compilation log.",
+      "case": "Immediate visceral kinship for terminal-centric systems engineers; extremely intimate.",
+      "risk": "Risks reading as a pure developer CLI utility rather than a modern distributed cloud engine platform.",
+      "comp": ".impeccable/mocks/decision/challenger-phosphor-terminal.webp",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-phosphor-terminal-midnight-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-phosphor-terminal-midnight.webp"
+    },
+    {
+      "id": "challenger-civic-bureau",
+      "label": "Late-Modern Technical Prospectus",
+      "verdict": "declined",
+      "lineage": "Late-modern corporate and scientific infrastructure prospectuses",
+      "palette": [
+        "#f8fafc",
+        "#0f172a",
+        "#3b82f6",
+        "#64748b"
+      ],
+      "materials": [
+        "bone-white coated stock",
+        "hairline architectural rules",
+        "precision grotesk typography"
+      ],
+      "case": "Unmatched typographic clarity, but loses the microsecond latency and dynamic streaming telemetry character.",
+      "kept": "Strict typographic restraint and ruled 1px architectural dividing rails.",
+      "hero": "https://impeccable.style/worlds/cards/civic-bureau-prospectus-late-modern-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "code",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "The Category Standard",
+    "thesis": "Conventional dark-mode SaaS landing page with dark slate ground, vibrant violet-to-cyan gradients, and standard bento cards, executed at maximum craft.",
+    "palette": [
+      "#07080b",
+      "#12151f",
+      "#6366f1",
+      "#06b6d4",
+      "#f8fafc"
+    ],
+    "materials": [
+      "frosted glassmorphism",
+      "gradient mesh orbs",
+      "subtle card border highlights"
+    ],
+    "viewport": "Prominent release badge, centered headline with gradient text, interactive floating dashboard mockup, 4-stat metrics row.",
+    "risk": "Identical aesthetic family to hundreds of cloud and AI startups.",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}
